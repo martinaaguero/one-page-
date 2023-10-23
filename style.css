@@ -1,0 +1,832 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------HEADER-----------------------------------------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+
+.menu{
+    display: flex;
+    margin-left: 550px;
+}
+
+.menu a{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration-line:underline;
+}
+
+.marca {
+    font-size: 40px;
+    color: black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    margin-top: 10px;
+    padding: auto;
+}
+
+.img img{
+    margin:0;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+
+@media all and (max-width: 480px){
+
+    .logo{
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .marca{
+        font-size: 50px;
+    }
+
+    .img img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .menu{
+        margin-right: 10px;
+        margin-left: 180px;
+
+    }
+
+    .menu a{
+        margin: 15px;
+    }
+}
+
+/*---------------------------------------------SECCION 1---------------------------------------------*/
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-seccion1{
+    display: flex;
+}
+
+.texto{
+    display: flex;
+}
+
+
+.texto h1 {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 100px;
+    margin: 5px;
+}
+
+.v-line{
+    display: flex;
+    height: 250px;
+    margin: 0 50px;
+}
+
+.line {
+    border-left:solid gray 2px;
+    height: 65%;
+    left: 50%;
+    margin-top: 45px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    align-items: justify;
+    justify-content: center;
+}
+
+.h2-titulo h2{
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+.texto-h2 p {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+@media all and (max-width: 480px){
+
+    .seccion1{
+        margin: 0 200px;
+        width: 450px;
+    }
+
+    .container-seccion1{
+        margin-right: 60px;
+    }
+
+    .texto h1{
+        font-size: 50px;}
+
+    .v-line{
+        height: 150px;
+    }
+
+    .line{
+        margin-top: 30px;
+    }
+
+    .h2-titulo h2{
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .texto-h2 p{
+        margin-left: 0px;
+        width: 450px;
+        
+    }
+}
+
+/*---------------------------------------------SECCION 2---------------------------------------------*/
+
+.seccion2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    height: 500px;
+    width: 1272px;
+    margin-top: 20px;
+    margin-left: 250px;
+    position: relative;
+}
+
+
+.banner{
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.flecha-izq{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 55px;
+    box-shadow: none;
+}
+
+.flecha-der{
+    color: rgba(128, 128, 128, 0.37);
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 55px;
+    border-color: white;
+    box-shadow: none;
+}
+
+
+@media all and (max-width: 480px){
+
+    .seccion2{
+        width: 700px;
+        margin-left: 50px;
+    }
+
+    .contenedor-imagen{
+        height: 300px;
+        width: 800px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .flecha-izq{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+
+    .flecha-der{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+}
+
+/*---------------------------------------------SECCION 3---------------------------------------------*/
+
+.seccion3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 80px
+}
+
+.carrusel{
+    position: relative;
+    display: flex;
+}
+.retrato{
+    width: 40%;
+}
+
+.texto-der{
+    
+    width: 60%;
+    padding-top: 6%;
+    margin-left: -45%;
+    margin-right: 20%;
+}
+
+.title-s3{
+    font-size: 40px;
+}
+.text-s3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    word-spacing: 1px;
+    line-height: 1.7;
+}
+
+.iconn{
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 8px 11px;
+    position: relative;
+}
+
+.iarrow{
+    margin: auto;
+    font-size: 15px;
+    position: absolute;
+}
+
+.text2-s3{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    font-size: 13px;
+    line-height: 1.7;
+    position: relative;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    border: none;
+    background-color: white;  
+    position: sticky;  
+}
+
+.next{
+    position: absolute;
+    bottom: 0.81%;
+    left:33.75%;
+}
+
+.prev{
+    position: absolute;
+    right: 66.27%;
+    top: 89.7%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+                    
+
+/*---------------------------------------------SECCION 4---------------------------------------------*/
+
+.seccion4{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    height: 800px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 300px;
+    position: relative;
+    width: 800px;
+}
+
+.texto-izq4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-izq4 h2{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.texto-parrafo{
+    color: gray;
+    margin: 5px 0;
+}
+
+.texto-izq4 p{
+    margin: 5px;
+
+}
+
+.texto-der4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: justify;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.texto-der4 p{
+    color: gray;
+}
+
+.titulo-der4{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagen3{
+    height: 430px;
+    width: 380px;
+}
+
+.imagen4{
+    width: 455px;
+    height: 370px;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion4{
+        margin-left: 160px;
+    }
+
+    .imagen3{
+        height: 300px;
+        width: 250px;
+    }
+
+    .imagen4{
+        height: 300px;
+        width: 250px;
+    }
+
+    .grilla{
+        margin-left: 500px;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 400px;
+        margin-right: 80px;
+    }
+}
+
+/*---------------------------------------------SECCION 5---------------------------------------------*/
+
+.tree{
+    height: 650px;
+    margin-top: 30px;
+    background-color:aliceblue;
+    display: flex;
+    }
+    
+    .auretrato{
+    display: inline-flex;
+    margin-top: 140px;
+    width: 60%;
+    margin-left: 35%;
+    
+    }
+    
+    #autoretrato{
+    height: 150px;
+    width: 130px;
+    }
+    
+    #facebook{
+    color: blue;
+    font-size: 21px;
+    }
+    
+    #twitter{
+    color: lightseagreen;
+    font-size: 21px;
+    border-radius: 50%;
+    }
+    
+    #google{
+    color: red;
+    font-size: 21px;
+    }
+    
+    
+    .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    }
+    
+    .parrafo-s5{
+    margin-left: 40px;
+    margin-top: 50px;
+    }
+    
+    .description{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    }
+    
+    .shadow{
+    position: relative;
+    }
+    
+    .caja1{
+    height: 150px;
+    width: 120px;
+    background-color: black;
+    padding-right: 20px;
+    }
+    
+    .cajita{
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    }
+    
+    .about{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;    
+    line-height: 28px;
+    text-align: center;
+    font-size: 17px;
+    }
+    
+    .tree{
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+    
+    .caja-baja{
+    
+    bottom: 20px;
+    align-content: center;
+    margin: 45px 233px 150px
+    
+    }
+    
+    @media(min-width: 1100px){
+  
+    .prev{
+        right: 66.1%;
+    }
+    }
+    
+    @media(max-width:768px){
+    .retrato{
+        width: 50%;
+    }
+    .texto-der{
+        width: 50%;
+        margin-right: 5%;
+        margin-left: -50%;
+        margin-top: 5%;
+    }
+    
+    .next{
+        left: 55.6%;
+        bottom: 0.6%;
+    }
+    .prev{
+        right: 44.4%;
+        top: 91.7%;
+    }
+    .auretrato{
+        margin-left: 28%;
+    }
+    
+    .caja-baja{
+        margin: -100px 125px 50px
+    }
+    
+    }
+    
+    @media(max-width:480px){
+    
+    .seccion3{
+        background-image: url(./images/Retrato.jpg);
+        background-size: cover;
+        height:600px
+    }
+    .carrusel{
+        flex-direction: column;
+    }
+    .retrato{
+        display: none;        
+    }
+    .texto-der{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .title-s3{
+        margin-top: 10%;
+    }
+    .text-s3{
+        color: black;
+    }
+    .text-s3{
+        background-color: aliceblue;
+        opacity: 0.5;
+    }
+    .text2-s3{
+        background-color: aliceblue;
+        padding: auto;
+        opacity: 0.5;
+    }
+    .button-prev{
+        top: 124.1%;
+        right: 46.9%;
+    }
+    .button-next{
+        bottom: -35.5%;
+        left: 52.9%;
+    }
+    .iconn{
+        margin-left: 45%;
+    }
+    
+    .auretrato{
+        display: flex;
+        flex-direction: column;
+    }
+    .caja-baja{
+        font-size: 5px;
+        margin: 35px;
+    }
+    .shadow{
+        margin: 10% -5% -2%;
+    }
+    .parrafo-s5{
+        margin-left: -50%;
+        text-align: center;
+    }
+    }
+    
+/*------------------------------------SECCION 6---------------------*/
+.seccion6{
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .caja-1, .caja-1sub {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 35px;
+    }
+    
+    .texto-1{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    }
+    
+    .flecha11{
+    
+        background-color: rgb(236, 228, 228);
+        color:black;
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+        border: none;
+       margin-top: 160px;
+    margin-left: 45px;
+
+    }
+    
+    .flecha22{
+        background-color: black;
+        color:white;
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+    margin-top: 100px;
+margin-left: 5px;
+}
+    
+
+    .cajas{
+    margin-left: 300px;
+    }
+    
+    .caja-2, .caja-2sub{
+        margin-top: 45px;
+    font-size: 25px;
+    
+    }
+    
+    .texto-2{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+     color: gray;
+    }
+    
+    .imagenes, .imagen-caja2, .imagen-caja3{
+    height: 150px;
+    width: 150px;
+    }
+    
+    .imagen-caja2{
+    margin-left: 250px;
+    margin-top: 50px;
+    }
+    
+    .caja-3sub{
+    margin-top: 70px;
+    font-size: 25px;
+    }
+    
+    .texto-3{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: gray;
+    }
+    
+    .imagen-caja3{
+    margin-left: 250px ;
+    margin-top: 60px;
+    }
+
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion6{
+        width: 800px;
+    }
+
+    .caja-1sub, .caja-2sub, .caja-3sub{
+font-size: 18px;
+    }
+
+ .texto-2, .texto-3{
+display: none;
+    }
+
+    .flecha11, .flecha22 {
+margin-top: 15px;
+    }
+
+.flecha22{
+    margin-bottom: 10px;
+ margin-left: 140px;
+}
+
+
+}
+    /*----------------------------FOOTER-------------------------*/
+
+    .pie-de-pag{
+        display: flex;
+        flex-direction: row;
+    background-color: rgb(51, 50, 50);
+    margin-top: 50px;
+    
+    padding: auto;
+    height: 250px;
+    width: 1300px;
+    }
+    
+    .img-footer{
+    margin-top: 80px;
+    margin-left: 150px;
+    
+    }
+    
+    .imagen-footer{
+        margin-left: 10px;
+    width: 40px; 
+    height: 40px;
+    
+    }
+    
+    .name, .marca2{
+        margin-top: 40px;
+    margin-left: 20px ;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: white;
+    }
+    
+    .caja1{
+        background-color:rgb(51, 50, 50) ;
+    margin-left: 120px;
+    margin-top: 80px;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    }
+    
+    .caja2{
+        margin-left: 200px;
+    margin-top: 80px;
+    color: gray;
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+    }
+    
+    .caja3{
+
+    margin-left: 190px;
+    margin-top: 80px;
+    color: gray;
+    }
+    
+    .email{
+height: 30px;
+    background-color: rgb(69, 63, 63);
+    color: gray;
+    border: none;
+    padding: 5px;
+    }
+    
+    .send{
+
+    height: 40px;
+    background-color:rgb(69, 63, 63) ;
+    color: white;
+    border: none;
+    padding: 5px;
+    }
+    
+    i{
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+    }
+
+    @media all and (min-width: 320px) and (max-width: 480px){
+.pie-de-pag{
+            width: 800px;
+      
+}
+ 
+.img-footer, .name, .caja1, .caja2, .caja3{
+margin-left: 20px;
+}
+  
+}
